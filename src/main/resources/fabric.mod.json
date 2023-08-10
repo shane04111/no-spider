@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "no-spider",
+	"version": "${version}",
+	"name": "no spider",
+	"description": "Prevent spiders from spawning in the world.",
+	"authors": [
+		"shane0411"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/shane04111/no-spider"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/no-spider/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.nospider.ExampleMod"
+		]
+	},
+	"mixins": [
+		"no-spider.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.19.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
