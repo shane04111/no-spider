@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "nospider",
+  "version": "${version}",
+
+  "name": "No Spider",
+  "description": "No spiders at the world spawn",
+  "authors": ["shane0411"],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/no-spider/",
+    "sources": "https://github.com/shane04111/no-spider"
+  },
+
+  "license": "MIT",
+  "icon": "assets/nospider/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": ["org.shane0411.nospider.NoSpider"]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17.x",
+    "java": ">=16"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
