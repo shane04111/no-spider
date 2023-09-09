@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.shane0411.nospider.Mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SpiderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
